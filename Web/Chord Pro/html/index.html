@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 1</title>
+    <style>
+      body {
+        background: #dddddd;
+      }
+
+      pre {
+        font-size: large;
+        font-weight: bold;
+        font-family: "Courier", Monospace;
+        color: blue;
+      }
+
+      .chord {
+        font-size: large;
+        font-weight: bold;
+        font-family: "Courier", Monospace;
+        color: green;
+      }
+
+      .chord-transposed {
+        font-size: large;
+        font-weight: bold;
+        font-family: "Courier", Monospace;
+        color: red;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="text-area"></div>
+    <br />
+    <input
+      type="text"
+      id="userTextField"
+      name="userTextField"
+      value=""
+      size="60"
+    />
+    <input type="button" id="submit_button" value="Submit Request" />
+    <br />
+    <input type="button" id="transpose_up" value="Transpose Up" />
+    <input type="button" id="transpose_down" value="Transpose Down" />
+
+    <script src="client.js"></script>
+    <script src="chords.js"></script>
+    <script src="buttonHandlers.js"></script>
+    <script src="eventListeners.js"></script>
+  </body>
+</html>
