@@ -1,6 +1,6 @@
 {
   "name": "assignment3",
-  "description": "Assignment 3: Chat Server based on Socket.io",
+  "description": "Chat Server based on Socket.io",
   "version": "1.0.0",
   "main": "server.js",
   "author": "Eric Hobson",
