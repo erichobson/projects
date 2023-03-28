@@ -1,3 +1,3 @@
-# There Was A Young Man From Nantucket
+# There Was A Young Man From Nantucket...
 
 For this assignment, we built a web app that incorporated not only html DOM elements but also objects rendered on a <canvas> element. Specifically, we built an app that allows a user to solve a puzzle by dragging words around on the canvas with their mouse. It then reconstructs the text their dragged words represent and the server determines if the puzzle was solved correctly.
