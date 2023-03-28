@@ -142,8 +142,8 @@ server.listen(PORT, err => {
     if (err) console.log(err)
     else {
         console.log(`------------------------------------------------------------------`)
-        console.log(`Assignment 3: Chat Server based on Socket.io`)
-        console.log(`Eric Hobson - 100826320`)
+        console.log(`Chat Server based on Socket.io`)
+        console.log(`Eric Hobson`)
         console.log()
         console.log(`Static server implemented using 'Express' framework`)
         console.log(`------------------------------------------------------------------`)
